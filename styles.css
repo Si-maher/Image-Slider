@@ -14,5 +14,25 @@ body {
     box-shadow: 5px 10px;
     
 }
+.btn {
+display: inline-block;
+    font-size: 1.5rem;
+    border: solid 3px green;
+    background: white;
+    outline: none;
 
-font-size: 1.5rem;
+}
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+
+}
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+
+}
