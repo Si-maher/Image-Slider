@@ -17,7 +17,7 @@ body {
 .btn {
 display: inline-block;
     font-size: 1.5rem;
-    border: solid 3px green;
+    border: solid 3px yellow;
     background: white;
     outline: none;
     border-radius: 20%;
