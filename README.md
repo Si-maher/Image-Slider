@@ -10,3 +10,6 @@
 * HTML
 * CSS
 * JavaScript
+# Author
+
+Simon Maher
