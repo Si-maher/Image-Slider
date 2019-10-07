@@ -3,7 +3,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url('img/background.jpg') center/cover no-repeat;
+    background: lightblue;
+    
 }
 .images {
     background: url(img/bcg-0.jpeg)center/cover no-repeat;
@@ -11,16 +12,21 @@ body {
     min-height: 70vh;
     border-radius: 15px;
     position: relative;
-    box-shadow: 5px 10px;
+    -webkit-box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
+box-shadow: 14px 35px 96px 17px rgba(0,0,0,0.75);
+ 
+ 
     
 }
 .btn {
 display: inline-block;
     font-size: 1.5rem;
-    border: solid 3px yellow;
+    border: solid 3px black;
     background: white;
     outline: none;
     border-radius: 20%;
+    color: gray;
 
 }
 .prevBtn {
