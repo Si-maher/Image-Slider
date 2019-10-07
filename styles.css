@@ -20,6 +20,7 @@ display: inline-block;
     border: solid 3px green;
     background: white;
     outline: none;
+    border-radius: 20%;
 
 }
 .prevBtn {
@@ -35,4 +36,13 @@ display: inline-block;
     right: 0;
     transform: translate(50%, -50%);
 
+}
+.btn:active {
+    background: grey;
+    box-shadow: 1px 1px grey;
+}
+.btn:hover {
+    background: rgb(1, 14, 1);
+    color: white;
+    cursor: pointer;
 }
