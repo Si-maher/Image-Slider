@@ -9,6 +9,7 @@ prevBtn.addEventListener('click', prevSlide)
 
 
 function nextSlide(){
+    container.animate([{opacity:'0.1'},{opacity:'1.0'}],{duration:1000,fill:'forwards'})
     if (counter === 4) {
         counter= -1;
     }
@@ -20,7 +21,7 @@ function prevSlide(){
     if (counter === 4) {
         counter= -1;
     }
-    counter++
+    counter--
     
     container.style.backgroundImage = `url(img/bcg-${counter}.jpeg)`
 }
