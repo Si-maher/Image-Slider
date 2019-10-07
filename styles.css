@@ -5,3 +5,14 @@ body {
     justify-content: center;
     background:url('img/background.jpg') center/cover no-repeat;
 }
+.images {
+    background: url(img/bcg-0.jpeg)center/cover no-repeat;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 10px;
+    
+}
+
+font-size: 1.5rem;
