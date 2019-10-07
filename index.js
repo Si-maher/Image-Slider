@@ -16,3 +16,11 @@ function nextSlide(){
     
     container.style.backgroundImage = `url(img/bcg-${counter}.jpeg)`
 }
+function prevSlide(){
+    if (counter === 4) {
+        counter= -1;
+    }
+    counter++
+    
+    container.style.backgroundImage = `url(img/bcg-${counter}.jpeg)`
+}
