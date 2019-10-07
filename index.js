@@ -18,8 +18,9 @@ function nextSlide(){
     container.style.backgroundImage = `url(img/bcg-${counter}.jpeg)`
 }
 function prevSlide(){
-    if (counter === 4) {
-        counter= -1;
+    container.animate([{opacity:'0.1'},{opacity:'1.0'}],{duration:1000, fill:'forwards'})
+    if (counter === 0) {
+        counter= 5;
     }
     counter--
     
