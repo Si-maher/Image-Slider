@@ -25,7 +25,7 @@ display: inline-block;
     border: solid 3px black;
     background: white;
     outline: none;
-    border-radius: 20%;
+    border-radius: 50px;
     color: gray;
 
 }
